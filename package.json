@@ -20,6 +20,7 @@
     "sucrase": "^3.18.2"
   },
   "dependencies": {
+    "bull": "^3.22.8",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "nodemailer": "^6.6.1"
