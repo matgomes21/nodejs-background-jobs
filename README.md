@@ -1,2 +1,6 @@
-# Background Jobs (Queue)
-### with Node.js
+# Queue jobs
+
+## Technologies
+* NodeJs
+* Bull
+* Redis
