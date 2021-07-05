@@ -6,7 +6,9 @@
   "author": "Mateus Gomes <mateusgomes.nascimento21@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev:server": "nodemon src/server.js"
+    "dev": "npm-run-all -p dev:*",
+    "dev:server": "nodemon src/server.js",
+    "dev:queue": "nodemon src/queue.js"
   },
   "devDependencies": {
     "eslint": "^7.2.0",
@@ -16,6 +18,7 @@
     "eslint-plugin-import-helpers": "^1.1.0",
     "eslint-plugin-prettier": "^3.4.0",
     "nodemon": "^2.0.7",
+    "npm-run-all": "^4.1.5",
     "prettier": "^2.3.1",
     "sucrase": "^3.18.2"
   },
