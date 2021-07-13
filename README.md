@@ -1,6 +1,6 @@
 # Queue jobs
 
-Queue application for background jobs running in parallel.
+Queue application made for running background jobs in parallel.
 
 ## Technologies
 * NodeJs
@@ -12,6 +12,8 @@ Queue application for background jobs running in parallel.
 ``` bash
 yarn install
 ```
+* Create a ```.env``` file following ```.env.example``` structure
+
 * Run redis
 ``` bash
 docker run --name redis -p 6379:6379 -d -t redis:alpine
